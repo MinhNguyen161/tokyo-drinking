@@ -14,4 +14,10 @@
 
 .navbar-toggler.toggler-example {
     cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.fa-bars {
+    color: white;
 }
