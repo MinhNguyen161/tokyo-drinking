@@ -15,3 +15,14 @@
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
+.content-block{
+  background-color: black;
+}
+.block1-left{
+color:white;
+}
+.text-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
