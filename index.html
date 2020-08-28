@@ -1,110 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Startup Test</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <body>
+    <nav class="navbar navbar-dark transparent fixed-top">
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler toggler-example"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="white"><i class="fas fa-bars fa-1x"></i></span>
+      </button>
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Make a reservation</a>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active"
-                    style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">First Slide</h2>
-                        <p class="lead">This is a description for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Second Slide</h2>
-                        <p class="lead">This is a description for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Third Slide</h2>
-                        <p class="lead">This is a description for the third slide.</p>
-                    </div>
-                </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url('https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/04/Omoide-Yokocho-e1493671671671-1170x660.jpg');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">First Slide</h2>
+              <p class="lead">This is a description for the first slide.</p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://media.timeout.com/images/105052083/image.jpg');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">Second Slide</h2>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/09/izakaya-iStock-JohnnyGreig.jpg');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">Third Slide</h2>
+              <p class="lead">This is a description for the third slide.</p>
+            </div>
+          </div>
         </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </header>
 
-    <section>
-        story
-    </section>
-    <section>
-        menu
-    </section>
-    <section>
-        events
-    </section>
-    <section>
-        team section
-    </section>
+    <section>story</section>
+    <section>menu</section>
+    <section>events</section>
+    <section>team section</section>
     <footer>
-        map+contact+booking
+      <div class="footer-parent">
+        <div class="footer-1">
+            <div class="row">
+                
+                <div class="col-md-3">
+                <div class="footer-1-card">
+                    <div class="footer-logo-img">
+                        <img src="https://lh3.googleusercontent.com/ShOQ58Gru8ZLKXtR9tAu37a_m7yr6YlWyp25cxZpWxvXQG27KNu7YckKhiKRs_JQSvre8vcYBZkY7lpBdGgqcZH5L46ybJzjSm7DK8-bsyNPktbxyV2fEnBNgRyyXkIwTtp-_Ljoc_W56wPdF0lYpPu0hSId5EXu5kTEKEqMMBtv-byQn6V6uZlzrfu7gq46IqEjpoIVnBmDyFy7kb3dPolnHu50t8HjLAA5Zj_Ykes2Upy59GjuaYjvmT6b4w9GWRtHCuF0NV2oPDB4Hxk-PIinPshnqj9csBuV62187xJbsxcYXeTM7tjM6nhANoaBDgDQbtHy6bqb15GeuFdvzZFAJrWb9epUkC-G_U5yDcXciyONVQchofoDQmIbMbfofRm2SjLXFOKHkSFG2ixOucFBFyDjAqArT1kD4kWCbr5g-5WGosnrQd2I471WzoWlu7-eY2nYgFWcTc5yIU_dqG7s549UVHkNVcwQvml3zKlaM3TWLLAq1UDyrknwGXIpeF2i6Y0S6PcaWLEZQtsECaXwOY4wa9b-wv5oj-RlFGMwlf0RHxTHUjpqulci2UzyiFXJPl3zxgp2jl1VE6KpXeCurn3SOx7_ROyOWyr3Req3IuF3vGvNdGExSAy8sb4Z6twUwxDrXJcZ7-BVndAL6waJ03YOfBlvK1ZSMfZaGShpOYm0Npp0u6wsznbI=w1085-h1028-no?authuser=0" class="card-img-top" alt="...">
+                    </div>
+                    
+                    <div class="card-body">
+                      <div class="footer-under-logo-location-open">
+                          <h3>Location</h3>
+                          <div class="footer-location-detail">
+                              <address>
+                                  8A/8D1 Thai Van Lung Street
+                                  <br>
+                                  Ben Nghe Ward
+                                  <br>
+                                  District 1
+                                  <br>
+                                  Ho Chi Minh City
+                              </adress>
+                          </div>
+                          <h3>Opening Hours</h3>
+                          <div class="footer-opening-detail">
+                              <p>
+                                  MONDAY to SATURDAY
+                                  <br>
+                                  5pm to 3am
+                                  <br>
+                                  SUNDAY
+                                  <br>
+                                  5pm to 1am
+
+                              </p>
+                          </div>
+
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                <div class="footer-make-a-reservation-text"> 
+                    <h3>MAKE A RESERVATION</h3>
+                </div>
+               
+                <div class="footer-tel-and-button-reservation">
+                    <button  class="button-reservation-footer">
+                        Make a reservation
+                      </button>
+                    <p class="tel">Tel : 0707-611-777 Mr. Sakai</p>
+                    <div class="footer-reservation-img">
+                        <img title="" src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="">  
+                        <img title="" src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="">
+                        <img title="" src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-3"> 
+
+                    <div class="card mb-3 footer-1-3-inserted-card" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="footer-1-3-img">
+                                <img src="data:image/jpeg;base64,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" class="card-img" alt="...">
+                            </div>
+                            
+                          
+                        </div>
+                          <div class="col-md-8">
+                            <div class="footer-1-3-card-body">
+                              <h5 class="card-title">Mangetsu Shochu Bar</h5>
+                              <address>
+                                  <p class="footer-1-3-card-text-mangetsu">
+                                27 Thai Van Lung Street
+                                <br>
+                                Ben Nghe Ward
+                                <br>
+                                District 1
+                                <br>
+                                Ho Chi Minh City
+                            </p>
+                        </address>
+                              
+                              <p class="card-text"><small class="text-muted">Opening hours: 6pm-2am</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-3"> 
+                    <div class="card mb-3 footer-1-4-inserted-card" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="footer-1-4-img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAFYH9dPCJGDlhBP6HbmCIt7ZytrhVTIC3Jw&usqp=CAU" class="card-img" alt="...">
+                            </div>
+                            
+                          
+                        </div>
+                          <div class="col-md-8">
+                            <div class="footer-1-4-card-body">
+                              <h5 class="footer-1-4-card-title">Ichibanya Tokyo Ramen</h5>
+                              <address>
+                                <p class="footer-1-4-card-text-ichibanya">
+                                    8A/A1 Thai Van Lung Street
+                                    <br>
+                                    Ben Nghe Ward
+                                    <br>
+                                    District 1
+                                    <br>
+                                    Ho Chi Minh City
+                                </p>
+                              </address>
+                              
+                              <p class="card-text"><small class="text-muted">Opening hours: 5pm-11pm</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>        
+        <div class="footer-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="footer-3">
+            POWERED BY WILLIAM LUCAS MINHMOE PTHAO
+            
+        </div>
+      </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
+
+
