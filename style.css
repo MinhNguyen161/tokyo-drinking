@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -8,10 +13,42 @@
     background-size: cover;
   }
 
-.fa-1x {
-    font-size: 1.5rem;
+.nav-icon-size {
+    font-size: 2rem;
+}
+
+.navbar-brand{
+    border: 2px solid white;
+    padding: 0px 10px 2px;
+    background: rgb(0, 0, 0, 0.35)
 }
 
 .navbar-toggler.toggler-example {
     cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.navbar-item {
+    color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.35);
+    width: 80px;
+    padding-left: 8px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+}
+  .navbar-default.scrolled{
+    background:#000;
 }
