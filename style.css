@@ -23,9 +23,7 @@ body {
   background: rgb(0, 0, 0, 0.35);
 }
 
-.navbar-toggler.toggler-example {
-  cursor: pointer;
-}
+
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -40,13 +38,6 @@ body {
   font-size: 1.5rem;
 }
 
-.navbar-toggler.toggler-example {
-  cursor: pointer;
-}
-/* .footer-2 {
-    display: flex;
-    justify-content: center;
-  } */
 
 .footer-parent {
   background-color: rgb(131, 146, 165);
@@ -214,7 +205,7 @@ h5 {
   letter-spacing: 1px;
 }
 
-.navbar-toggle.toggler-example {
+.navbar-toggler.toggler-example {
   cursor: pointer;
   border: none;
   outline: none;
