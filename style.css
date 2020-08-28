@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -8,8 +13,14 @@
     background-size: cover;
   }
 
-.fa-1x {
-    font-size: 1.5rem;
+.nav-icon-size {
+    font-size: 2rem;
+}
+
+.navbar-brand{
+    border: 2px solid white;
+    padding: 0px 10px 2px;
+    background: rgb(0, 0, 0, 0.35)
 }
 
 .navbar-toggler.toggler-example {
