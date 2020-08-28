@@ -15,3 +15,193 @@
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .fa-1x {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+  /* .footer-2 {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .footer-parent {
+    background-color: rgb(131, 146, 165);
+  }
+  .footer-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0px;
+  }
+  .footer-2 {
+    /* flex: 3; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-2 > .fab {
+    margin: 15px;
+  }
+  
+  .footer-2 > .fab:hover {
+    color: green;
+  }
+  
+  /* .footer-parent{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
+  .footer-3 {
+    /* flex: 3; */
+    display: flex;
+    justify-content: center;
+  }
+  .fab {
+    font-size: 35px;
+  }
+  .footer-2 {
+    background-color: rgb(150, 162, 170);
+    height: 60px;
+  }
+  .footer-3 {
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+  }
+  
+  .footer-logo-img img {
+    border-radius: 45%;
+    max-width: 70%;
+    height: auto;
+    padding: 10px;
+  }
+  .footer-under-logo-location-open .h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-family: "OakesGroteskBold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .footer-opening-detail > p {
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  .footer-location-detail > address {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 20px;
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+  }
+  .button-reservation-footer {
+    border: 0px;
+    max-width: 350px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 18px 42px 18px;
+    background-color: rgb(150, 162, 170);
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+  }
+  .button-reservation-footer:hover {
+    background-color: rgb(202, 84, 68);
+  }
+  .footer-make-a-reservation-text h3 {
+    margin-top: 45%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-family: "OakesGroteskBold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+  }
+  .footer-tel-and-button-reservation .tel {
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  .footer-reservation-img {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  
+  .footer-1-3-img img {
+    border-radius: 45%;
+    padding: 10px;
+  }
+  .footer-1-3-inserted-card {
+    background-color: rgb(150, 162, 170);
+    margin-top: 50%;
+  }
+  
+  .footer-1-4-img img {
+    border-radius: 45%;
+    padding: 10px;
+  }
+  .footer-1-4-inserted-card {
+    background-color: rgb(150, 162, 170);
+    margin-top: 50%;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-family: "OakesGroteskBold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  .footer-1-3-card-body > address {
+    font-size: 16px;
+    color: #1a1a1a;
+    line-height: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  .footer-1-4-card-body > address {
+    font-size: 16px;
+    color: #1a1a1a;
+    line-height: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  
+  
+  
