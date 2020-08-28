@@ -239,9 +239,14 @@ h5 {
 }
 .block1-left {
   color: white;
+  margin: 0 40px;
 }
 .text-box {
   display: flex;
   justify-content: center;
   margin-top: 25vh;
+}
+block1-left >h2{
+  font-weight: normal;
+  font-family: "OakesGroteskBold";
 }
