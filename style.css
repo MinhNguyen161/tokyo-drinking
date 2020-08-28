@@ -1,17 +1,65 @@
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .fa-1x {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler.toggler-example {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+/** Team Page*/
+.team-page-row {
+  height: 50vh;
+  background-color: black;
+}
+.team-member {
+  color: white;
+  font-weight: 900;
+  border: 1px solid red;
+}
+.team-member:hover {
+  background-color: yellow;
+}
+.thao {
+  height: 100%;
+}
+.img-thao {
+    overflow: hidden !important;
+  /* background-image: url("/team-page-image/bean-team.jpeg");
+  background-size: cover; */
+}
+
+.fadebackground:hover + .member-photo {
+  width: 650px;
+  transition-duration: 0.5s;
+}
+
+
+.member-photo {
+  margin-top: 0;
+  width: 600px;
+  transition-duration: 0.2s;
+}
+
+.fadebackground:hover {
+  background-color: rgba(0, 0, 0, 0.337);
+  transition-duration: 0.5s;
+}
+
+.fadebackground {
+  transition-duration: 0.5s;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
