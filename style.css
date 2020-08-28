@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: monospace;
 }
 
 .carousel-item {
@@ -40,7 +41,7 @@ body {
 
 
 .footer-parent {
-  background-color: rgb(131, 146, 165);
+  background-color:dimgray  ;
 }
 .footer-1 {
   display: flex;
@@ -239,6 +240,8 @@ h5 {
 }
 .block1-left {
   color: white;
+  margin: 0 80px;
+  text-align: justify;
 }
 .text-box {
   display: flex;
@@ -313,6 +316,16 @@ h5 {
       }
       .text-box {
         display: flex;
-        justify-content: center;
+        justify-content: cenßter;
         margin-top: 25vh;
       }
+.block1-left h2{
+  color: goldenrod;
+}
+.block1-left p{
+  font-size: 17px;
+}
+h1,h2,h3{
+  color: goldenrod;
+  font-weight:bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic;
+}
