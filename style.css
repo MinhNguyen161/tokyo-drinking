@@ -25,6 +25,10 @@ body {
   border-radius: 30px;
 }
 
+.navspacing {
+  flex:2;
+}
+
 .nav-link {
   font-size: large;
 }
