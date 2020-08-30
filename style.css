@@ -217,8 +217,13 @@ footer {
   transition-duration: 0.3s;
 }
 .button-reservation-footer:hover {
+  cursor: pointer;
   background-color: goldenrod;
 }
+button:focus {
+  outline: 0;
+}
+
 .footer-reservation-img > img {
   width: auto;
   display: inline-block;
