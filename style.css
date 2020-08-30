@@ -248,14 +248,10 @@ h5 {
 
 /** Team Page*/
 .team-page2 {
-  height:1300px;
   background-color: goldenrod;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .team-page-row {
-  
-    height: 500px;
-   
   }
 
   .introduction {
@@ -272,22 +268,12 @@ h5 {
   }
   
   .team-member{
-    display: flex;
-    flex-wrap: wrap;
       height: 500px;
       width: 200px;
-  }
-  .left-member{
       display: flex;
-      justify-content: flex-end;  
-      flex-wrap: wrap;
+      justify-content: center;
   }
 
-  .right-member {
-    display: flex;
-    justify-content: flex-start; 
-    flex-wrap: wrap;
-  }
   
   .hovereffect {
       width: 500px;
