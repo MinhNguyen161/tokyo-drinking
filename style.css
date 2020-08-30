@@ -195,13 +195,15 @@ footer {
 } */
 .footer-1-left-logo-image {
   padding-left: 30px;
+  padding-right: 30px;
 }
 .footer-1-left-restaurant-information {
-  padding: 20px;
+  padding: 1px 10px 10px 40px;
 }
 .button-reservation-footer {
   border: 0px;
   max-width: 270px;
+  width: 100%;
   color: white;
   margin: 0 auto;
   line-height: 1;
@@ -225,10 +227,11 @@ button:focus {
 }
 
 .footer-reservation-img > img {
-  width: auto;
-  display: inline-block;
-  padding: 10px 0px;
+  /* width: auto;
+  display: inline-block; */
+  padding: 10px 10px 10px 0px;
 }
+
 .footer-social-section > .fab {
   margin: 10px;
   font-size: 35px;
@@ -254,12 +257,15 @@ button:focus {
 .footer-1-social > a:hover {
   color: goldenrod;
 }
+.footer-make-a-reservation-block {
+  padding: 3px;
+}
 .footer-1-right-text-div {
-  padding-top: 35px;
-  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-bottom: 55px;
 }
 .footer-1-right-other-resto {
-  padding: 40px;
+  padding: 55px;
 }
 
 .footer-typer-writer {
@@ -267,5 +273,5 @@ button:focus {
   font-weight: bolder;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
-  font-size: 40px;
+  font-size: 34px;
 }
