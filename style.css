@@ -272,17 +272,21 @@ h5 {
   }
   
   .team-member{
+    display: flex;
+    flex-wrap: wrap;
       height: 500px;
       width: 200px;
   }
   .left-member{
       display: flex;
       justify-content: flex-end;  
+      flex-wrap: wrap;
   }
 
   .right-member {
     display: flex;
     justify-content: flex-start; 
+    flex-wrap: wrap;
   }
   
   .hovereffect {
