@@ -37,7 +37,7 @@ body {
 }
 
 .navbar-default.scrolled {
-  max-height: 75px;
+  max-height: 50px;
 }
 
 .scrolled.navbar-toggler.toggler-example {
